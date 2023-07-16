@@ -1,3 +1,4 @@
+
 package org.mushare.httper.entity;
 
 import org.greenrobot.greendao.annotation.Entity;
@@ -13,6 +14,7 @@ import org.greenrobot.greendao.annotation.NotNull;
 @Entity(indexes = {
         @Index(value = "createAt ASC", unique = true)
 })
+
 public class RequestRecord {
 
     @Id
